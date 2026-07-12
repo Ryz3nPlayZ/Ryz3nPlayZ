@@ -1,5 +1,5 @@
 # 💫 About Me:
-im a student<br>but i really like playing around with software development
+im a student<br>software development
 
 
 ## 🌐 Socials:
