@@ -1,124 +1,27 @@
-# 💫 About Me:
-im a student<br>software development
-
-
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/zemu.liu) 
-
-## ⚡ My Fastfetch Prompt — Aero
-
-My daily driver prompt: Ghostty + fish + starship (catppuccin_mocha) + custom Aero-Deuce triangle ASCII for fastfetch, tuned for JetBrainsMono Nerd Font line-spacing.
-
 ```text
-  *@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*=
-  :*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*+-.
-    =%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*=:.         zemuliu@Zemus-MacBook-Air
-     :*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#*=:.             -------------------------
-       =%@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#+-:.                  OS - macOS Golden Gate 27.0 (26A428) arm64
-        :*@@@@@@@@@@@@@@@@@@@@@@@%#+-..                      HOST - MacBook Air (13-inch, M5, 2026)
-          =%@@@@@@@@@@@@@@@@@@%+-.                           VER - Darwin 27.0.0
-           .*@@@@@@@@@@@@@@@@@+                              UP - 1 day, 9 hours
-             -%@@@@@@@@@@@@@@@=                              PKG - 121 (brew), 14 (brew-cask)
-              .*@@@@@@@@@@@@@@=                              SH - zsh 5.9
-                -%@@@@@@@@@@@@=                              SCR - 3420x2224 @ 2x in 14", 60 Hz
-                 .*@@@@@@@@@@@=                              TERM - Ghostty + tmux
-                   -%@@@@@@@@@=                              DISK - 330 GiB / 460 GiB (72%) - apfs
-                    .*@@@@@@@@=                              IP - 192.168.0.120/24
-                      -%@@@@@@=                              BATT - 100% [AC Connected]
-                       .*@@@@@=                              PWR - 40W Pwr Adapter 60W Max
-                         -%@@@=
-                           .#@=
-                             -
-```
-
-### Setup
-
-**1. Logo — `assets/aero-ascii.txt` (55×19, factor 0.40, sharp `-` tip):**
-```text
-*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*=
-:*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*+-.
-  =%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*=:.
-   :*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#*=:.
-     =%@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#+-:.
-      :*@@@@@@@@@@@@@@@@@@@@@@@%#+-..
-        =%@@@@@@@@@@@@@@@@@@%+-.
-         .*@@@@@@@@@@@@@@@@@+
-           -%@@@@@@@@@@@@@@@=
-            .*@@@@@@@@@@@@@@=
-              -%@@@@@@@@@@@@=
-               .*@@@@@@@@@@@=
-                 -%@@@@@@@@@=
-                  .*@@@@@@@@=
-                    -%@@@@@@=
-                     .*@@@@@=
+*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*=  Ryz3nPlayZ@github
+:*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*+-.    -------------------------
+  =%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*=:.        USER - Zemu Liu, student
+   :*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#*=:.            FOCUS - software development
+     =%@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#+-:.                STACK - Python / Rust / TS / Swift
+      :*@@@@@@@@@@@@@@@@@@@@@@@%#+-..                    UP - 2022 -> now (4 yrs shipping)
+        =%@@@@@@@@@@@@@@@@@@%+-.                         REPOS - 32 public
+         .*@@@@@@@@@@@@@@@@@+                            STARS - 15 earned (zWork 11)
+           -%@@@@@@@@@@@@@@@=                            PINNED - zWork / aero-deuce / idcp
+            .*@@@@@@@@@@@@@@=                            NOW - Aero-Deuce 12B + zWork coworker
+              -%@@@@@@@@@@@@=                            LANGS - Rust / Python / TS / Swift / R
+               .*@@@@@@@@@@@=                            SHELL - fish + starship + Ghostty
+                 -%@@@@@@@@@=                            DATA - 30K SFT / 65.6M LoRA params
+                  .*@@@@@@@@=                            LINKS - ig:zemu.liu / hf:ZeZZm
+                    -%@@@@@@=                            ASK - LLMs / tooling / edge infer
+                     .*@@@@@=                            PWR - does work, not just tells you
                        -%@@@=
-                         .#@=
+                         .#@=                            ● ● ● ● ● ● ● ●
                            -
 ```
 
-**2. Fastfetch — `~/.config/fastfetch/aero.jsonc`:**
-```jsonc
-{
-  "logo": {
-    "type": "file-raw",
-    "source": "/Users/zemuliu/Programming/aero-deuce/assets/aero-ascii.txt",
-    "padding": { "top": 1, "left": 2, "right": 3 }
-  },
-  "display": { "separator": "- " },
-  "modules": [
-    "break", "break", "break",
-    { "type": "title" },
-    { "type": "separator" },
-    { "type": "os", "key": " OS ", "keyColor": "red" },
-    { "type": "host", "key": " HOST ", "keyColor": "green" },
-    { "type": "kernel", "key": " VER ", "keyColor": "yellow" },
-    { "type": "uptime", "key": " UP ", "keyColor": "blue" },
-    { "type": "packages", "key": " PKG ", "keyColor": "magenta" },
-    { "type": "shell", "key": " SH ", "keyColor": "cyan" },
-    { "type": "display", "key": " SCR ", "keyColor": "white" },
-    { "type": "terminal", "key": " TERM ", "keyColor": "yellow" },
-    { "type": "disk", "key": " DISK ", "keyColor": "blue" },
-    { "type": "localip", "key": " IP ", "keyColor": "magenta" },
-    { "type": "battery", "key": " BATT ", "keyColor": "cyan" },
-    { "type": "poweradapter", "key": " PWR ", "keyColor": "white" },
-    "break",
-    { "type": "colors", "symbol": "circle" }
-  ]
-}
-```
-
-**3. Run it:**
-```bash
-fastfetch -c ~/.config/fastfetch/aero.jsonc
-# make default:
-cp ~/.config/fastfetch/aero.jsonc ~/.config/fastfetch/config.jsonc
-```
-
-Fish auto-runs it (`config.fish`):
-```fish
-if status is-interactive
-    if command -v fastfetch &>/dev/null
-        fastfetch
-    end
-end
-```
-
-Stack: Ghostty (`JetBrainsMono Nerd Font` 14,ekaneskode) + fish + starship `catppuccin_mocha` + zoxide + eza.
-
-Why this ratio? Terminal cells aren't square + line-spacing stretches height. `0.40` factor with hand-sharpened `-` tip keeps both legs sharp. Half-blocks still show line gaps on this setup, so classic `@%#*+=-:. ` wins.
-
----
-# 💻 Tech Stack:
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![OVH](https://img.shields.io/badge/ovh-%23123F6D.svg?style=for-the-badge&logo=ovh&logoColor=#123F6D) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![Bun](https://img.shields.io/badge/Bun-%23000000.svg?style=for-the-badge&logo=bun&logoColor=white) ![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green) ![Electron.js](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Three js](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white) ![WebGL](https://img.shields.io/badge/WebGL-990000?logo=webgl&logoColor=white&style=for-the-badge) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Playwright](https://img.shields.io/badge/-playwright-%232EAD33?style=for-the-badge&logo=playwright&logoColor=white) ![Vitest](https://img.shields.io/badge/-Vitest-252529?style=for-the-badge&logo=vitest&logoColor=FCC72B) ![Puppeteer](https://img.shields.io/badge/Puppeteer-%2340B5A4.svg?style=for-the-badge&logo=Puppeteer&logoSize=auto&logoColor=black) ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Sentry](https://img.shields.io/badge/sentry-%23362D59.svg?style=for-the-badge&logo=sentry&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) ![SonarLint](https://img.shields.io/badge/SonarLint-CB2029?style=for-the-badge&logo=SONARLINT&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi) ![TOR](https://img.shields.io/badge/tor-%237E4798.svg?style=for-the-badge&logo=tor-project&logoColor=white) ![Tampermonkey](https://img.shields.io/badge/tampermonkey-%2300485B.svg?style=for-the-badge&logo=tampermonkey&logoColor=white) ![Wireguard](https://img.shields.io/badge/wireguard-%2388171A.svg?style=for-the-badge&logo=wireguard&logoColor=white) ![OpenGL](https://img.shields.io/badge/OpenGL-white?logo=OpenGL&style=for-the-badge)
-# 📊 GitHub Stats:
 ![](https://github-readme-stats.shion.dev/api?username=Ryz3nPlayZ&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://streak-stats.demolab.com/?user=Ryz3nPlayZ&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=Ryz3nPlayZ&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
----
 [![](https://komarev.com/ghpvc/?username=Ryz3nPlayZ&icon=0&color=0)](https://visitcount.itsvg.in)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
